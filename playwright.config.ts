@@ -31,7 +31,7 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     baseURL: "https://opensource-demo.orangehrmlive.com",
     trace: 'on',
-    headless: true,
+    headless: false,
     screenshot: 'on',
     video: 'on',
     testIdAttribute:'test-id',
